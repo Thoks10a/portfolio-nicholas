@@ -4,7 +4,6 @@ import CodeRoutes from '../image/CodeRoutes.png';
 import GitHubAPI from '../image/GitHubAPI.png';
 import useStateuSeEffect from '../image/useState-useEffect.png';
 import ReactStrap from '../image/ReactStrap.png';
-import { Button } from 'reactstrap';
 
 export default function UmPoucoMais() {
     const styleMarg = {

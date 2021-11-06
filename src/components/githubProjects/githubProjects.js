@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import './githubProjects.css';
-import Slideshow from './slideShow';
-import { Button } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
 function GithubProjects() {
