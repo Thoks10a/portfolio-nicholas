@@ -1,6 +1,5 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef } from 'react';
 import './about.css';
-import { Button } from 'reactstrap';
 
 import { Link } from 'react-router-dom';
 
