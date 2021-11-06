@@ -1,12 +1,11 @@
 /* eslint-disable no-unused-vars */
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 // Routes
 import Routes from './components/routes/routes';
 import { Link, BrowserRouter } from 'react-router-dom';
 
 // Import Components
-import Home from './components/home/home';
 
 import ScrollToTop from './components/routes/ScrollToTop';
 
@@ -52,7 +51,9 @@ function App() {
                                     <NavLink href="/">Home</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink href="/about">About</NavLink>
+                                    <NavLink href="./about/about">
+                                        About
+                                    </NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink href="/githubprojects">
@@ -82,6 +83,20 @@ function App() {
                     }}
                 >
                     Trabalhando no site para deixá-lo responsivo!
+                </p>
+                <p
+                    style={{
+                        display: 'flex',
+                        'align-items': 'center',
+                        'justify-content': 'center',
+                        'background-color': '#282c34',
+                        'margin-bottom': '0px',
+                        'margin-top': '0px',
+                        'padding-top': '35px',
+                        color: 'red',
+                    }}
+                >
+                    Trabalhando no NavBar com problema!
                 </p>
                 <div className="routes">
                     <Routes></Routes>

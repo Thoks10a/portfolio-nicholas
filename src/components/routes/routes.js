@@ -6,6 +6,7 @@ import Home from '../home/home';
 import About from '../about/about';
 import GithubProjects from '../githubProjects/githubProjects';
 import UmPoucoMais from '../UmPoucoMais/UmPoucoMais';
+import App from '../../App';
 
 import ScrollToTop from './ScrollToTop';
 
@@ -14,6 +15,7 @@ const Routes = () => {
         <BrowserRouter>
             <ScrollToTop>
                 <Route component={Home} path="/" exact />
+                <Route component={App} path="/App" exact />
                 <Route component={About} path="/about" />
                 <Route component={GithubProjects} path="/githubprojects" />
                 <Route component={UmPoucoMais} path="/UmPoucoMais" exact />
