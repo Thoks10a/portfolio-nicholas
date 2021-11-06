@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import './App.css';
 // Routes
 import Routes from './components/routes/routes';
-import { Link } from 'react-router-dom';
+import { Link, BrowserRouter } from 'react-router-dom';
 
 // Import Components
 import Home from './components/home/home';
@@ -48,18 +48,25 @@ function App() {
                     <Collapse isOpen={isOpen} navbar>
                         <Nav className="me-auto" navbar>
                             <NavItem>
-                                <NavLink href="/">Home</NavLink>
+                                <NavLink href="/" to="/">
+                                    Home
+                                </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="/about">About</NavLink>
+                                <NavLink href="/about" to="/about">
+                                    About
+                                </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="/githubprojects">
+                                <NavLink
+                                    href="/githubprojects"
+                                    to="/githubprojects"
+                                >
                                     GitHub Projects
                                 </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="/UmPoucoMais">
+                                <NavLink href="/UmPoucoMais" to="/UmPoucoMais">
                                     Um pouco mais
                                 </NavLink>
                             </NavItem>
