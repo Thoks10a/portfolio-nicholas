@@ -18,8 +18,8 @@ import {
     NavbarToggler,
     Collapse,
     Nav,
-    NavItem,
     NavLink,
+    NavItem,
     UncontrolledDropdown,
     DropdownToggle,
     DropdownMenu,
@@ -39,71 +39,67 @@ function App() {
 
     return (
         <div className="App">
-            <div>
-                <Navbar expand="md" className="navbar" light>
-                    <NavbarBrand href="" style={PortStyle}>
-                        Portfolio Nicholas
-                    </NavbarBrand>
-                    <NavbarToggler onClick={toggle} />
-                    <Collapse isOpen={isOpen} navbar>
-                        <Nav className="me-auto" navbar>
-                            <NavItem>
-                                <NavLink href="/" to="/">
-                                    Home
-                                </NavLink>
-                            </NavItem>
-                            <NavItem>
-                                <NavLink href="/about" to="/about">
-                                    About
-                                </NavLink>
-                            </NavItem>
-                            <NavItem>
-                                <NavLink
-                                    href="/githubprojects"
-                                    to="/githubprojects"
-                                >
-                                    GitHub Projects
-                                </NavLink>
-                            </NavItem>
-                            <NavItem>
-                                <NavLink href="/UmPoucoMais" to="/UmPoucoMais">
-                                    Um pouco mais
-                                </NavLink>
-                            </NavItem>
-                        </Nav>
-                    </Collapse>
-                </Navbar>
-            </div>
-            <p
-                style={{
-                    display: 'flex',
-                    'align-items': 'center',
-                    'justify-content': 'center',
-                    'background-color': '#282c34',
-                    'margin-bottom': '0px',
-                    'margin-top': '0px',
-                    'padding-top': '35px',
-                    color: 'red',
-                }}
-            >
-                Trabalhando no site para deixá-lo responsivo!
-            </p>
-            <div className="routes">
-                <Routes></Routes>
-            </div>
-            <p
-                style={{
-                    display: 'flex',
-                    'align-items': 'center',
-                    'justify-content': 'center',
-                    'background-color': '#282c34',
-                    'margin-bottom': '0px',
-                    'margin-top': '0px',
-                    'padding-top': '35px',
-                }}
-            >
-                © Nicholas Isola da Silva 2021
-            </p>
+            <BrowserRouter>
+                <div>
+                    <Navbar expand="md" className="navbar" light>
+                        <NavbarBrand href="" style={PortStyle}>
+                            Portfolio Nicholas
+                        </NavbarBrand>
+                        <NavbarToggler onClick={toggle} />
+                        <Collapse isOpen={isOpen} navbar>
+                            <Nav className="me-auto" navbar>
+                                <NavItem>
+                                    <NavLink href="/">Home</NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink href="/about">About</NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink href="/githubprojects">
+                                        GitHub Projects
+                                    </NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink href="/UmPoucoMais">
+                                        Um pouco mais
+                                    </NavLink>
+                                </NavItem>
+                            </Nav>
+                        </Collapse>
+                    </Navbar>
+                </div>
+
+                <p
+                    style={{
+                        display: 'flex',
+                        'align-items': 'center',
+                        'justify-content': 'center',
+                        'background-color': '#282c34',
+                        'margin-bottom': '0px',
+                        'margin-top': '0px',
+                        'padding-top': '35px',
+                        color: 'red',
+                    }}
+                >
+                    Trabalhando no site para deixá-lo responsivo!
+                </p>
+                <div className="routes">
+                    <Routes></Routes>
+                </div>
+                <p
+                    style={{
+                        display: 'flex',
+                        'align-items': 'center',
+                        'justify-content': 'center',
+                        'background-color': '#282c34',
+                        'margin-bottom': '0px',
+                        'margin-top': '0px',
+                        'padding-top': '35px',
+                    }}
+                >
+                    © Nicholas Isola da Silva 2021
+                </p>
+            </BrowserRouter>
         </div>
     );
 }
