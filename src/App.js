@@ -51,9 +51,7 @@ function App() {
                                     <NavLink href="/">Home</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink href="./about/about">
-                                        About
-                                    </NavLink>
+                                    <NavLink href="/about">About</NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink href="/githubprojects">

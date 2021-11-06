@@ -16,8 +16,12 @@ const Routes = () => {
             <ScrollToTop>
                 <Route component={Home} path="/" exact />
                 <Route component={App} path="/App" exact />
-                <Route component={About} path="/about" />
-                <Route component={GithubProjects} path="/githubprojects" />
+                <Route component={About} path="/about" exact />
+                <Route
+                    component={GithubProjects}
+                    path="/githubprojects"
+                    exact
+                />
                 <Route component={UmPoucoMais} path="/UmPoucoMais" exact />
             </ScrollToTop>
         </BrowserRouter>
