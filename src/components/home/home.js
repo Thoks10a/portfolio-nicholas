@@ -20,12 +20,6 @@ import {
 
 import perfil from '../image/perfil.jpg';
 
-import { useState } from 'react';
-
-const PortStyle = {
-    'margin-right': '100px',
-};
-
 const h1Style = {
     'margin-top': '2rem',
 };
@@ -36,40 +30,8 @@ const pStyle = {
 };
 
 function Home() {
-    const [isOpen, setIsOpen] = useState(false);
-
-    const toggle = () => setIsOpen(!isOpen);
-
     return (
         <div className="container">
-            <div>
-                <Navbar expand="md" className="navbar" light>
-                    <NavbarBrand href="/" style={PortStyle}>
-                        Portfolio Nicholas
-                    </NavbarBrand>
-                    <NavbarToggler onClick={toggle} />
-                    <Collapse isOpen={isOpen} navbar>
-                        <Nav className="me-auto" navbar>
-                            <NavItem>
-                                <NavLink href="/">Home</NavLink>
-                            </NavItem>
-                            <NavItem>
-                                <NavLink href="/about">About</NavLink>
-                            </NavItem>
-                            <NavItem>
-                                <NavLink href="/githubprojects">
-                                    GitHub Projects
-                                </NavLink>
-                            </NavItem>
-                            <NavItem>
-                                <NavLink href="/UmPoucoMais">
-                                    Um pouco mais
-                                </NavLink>
-                            </NavItem>
-                        </Nav>
-                    </Collapse>
-                </Navbar>
-            </div>
             <h1 className="title">
                 Olá bem vindo ao meu portfolio! Espero que goste!
             </h1>
