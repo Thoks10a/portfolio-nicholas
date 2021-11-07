@@ -14,7 +14,6 @@ import NavBar from '../NavBar/NavBar';
 const Routes = () => {
     return (
         <BrowserRouter>
-            <NavBar />
             <ScrollToTop>
                 <Route component={Home} path="/" exact />
                 <Route component={About} path="/about" exact />

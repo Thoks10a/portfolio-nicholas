@@ -20,6 +20,8 @@ import {
 
 import perfil from '../image/perfil.jpg';
 
+import NavBar from '../NavBar/NavBar';
+
 const h1Style = {
     'margin-top': '2rem',
 };
@@ -32,6 +34,7 @@ const pStyle = {
 function Home() {
     return (
         <div className="container">
+            <NavBar />
             <h1 className="title">
                 Olá bem vindo ao meu portfolio! Espero que goste!
             </h1>
