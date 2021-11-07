@@ -20,6 +20,8 @@ import {
 
 import perfil from '../image/perfil.jpg';
 
+import { useState } from 'react';
+
 const h1Style = {
     'margin-top': '2rem',
 };

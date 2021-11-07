@@ -13,7 +13,11 @@ import StyleNavBar from './components/Style-NavBar/Style-NavBar';
 function App() {
     return (
         <div className="App">
-            <StyleNavBar />
+            {/* <StyleNavBar /> */}
+
+            <div className="routes">
+                <Routes></Routes>
+            </div>
             <p
                 style={{
                     display: 'flex',
@@ -42,10 +46,6 @@ function App() {
             >
                 Trabalhando no NavBar com problema!
             </p>
-
-            <div className="routes">
-                <Routes></Routes>
-            </div>
             <p
                 style={{
                     display: 'flex',

@@ -44,7 +44,8 @@ export default function StyleNavBar() {
                                     <NavLink href="/">Home</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink href="/about">About</NavLink>
+                                    {/* <NavLink href="/about">About</NavLink> */}
+                                    <Link to={'/about'}>About2</Link>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink href="/githubprojects">
