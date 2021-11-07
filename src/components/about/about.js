@@ -136,7 +136,7 @@ function About() {
                             </p>
                         </div>
                     </div>
-                    <p style={pStyle}>Estou muito ancioso para começar!</p>
+                    <p style={pStyle}>Estou muito ansioso para começar!</p>
                 </div>
             </div>
             <Link

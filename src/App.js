@@ -41,20 +41,6 @@ function App() {
                     'margin-bottom': '0px',
                     'margin-top': '0px',
                     'padding-top': '35px',
-                    color: 'red',
-                }}
-            >
-                Trabalhando no NavBar com problema!
-            </p>
-            <p
-                style={{
-                    display: 'flex',
-                    'align-items': 'center',
-                    'justify-content': 'center',
-                    'background-color': '#282c34',
-                    'margin-bottom': '0px',
-                    'margin-top': '0px',
-                    'padding-top': '35px',
                 }}
             >
                 © Nicholas Isola da Silva 2021
