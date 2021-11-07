@@ -9,8 +9,6 @@ import UmPoucoMais from '../UmPoucoMais/UmPoucoMais';
 
 import ScrollToTop from './ScrollToTop';
 
-import NavBar from '../NavBar/NavBar';
-
 const Routes = () => {
     return (
         <BrowserRouter>
