@@ -19,6 +19,8 @@ import {
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
+import '../routes/routes';
+
 const PortStyle = {
     'margin-right': '100px',
 };

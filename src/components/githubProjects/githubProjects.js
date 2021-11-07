@@ -13,6 +13,17 @@ function GithubProjects() {
 
     return (
         <div className="container-git">
+            <Link
+                to="/about"
+                style={{
+                    display: 'flex',
+                    'align-items': 'center',
+                    'justify-content': 'center',
+                    color: 'gray',
+                }}
+            >
+                Sobre
+            </Link>
             <h1 className="title-git">Projetos GitHub!</h1>
             <h4 className="title-git-sub">API Git Repositories</h4>
             {/* <div className="div-slide">

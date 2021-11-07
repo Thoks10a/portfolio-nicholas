@@ -29,6 +29,17 @@ function About() {
 
     return (
         <div className="container-about">
+            <Link
+                to="/"
+                style={{
+                    display: 'flex',
+                    'align-items': 'center',
+                    'justify-content': 'center',
+                    color: 'gray',
+                }}
+            >
+                Home
+            </Link>
             <h1 className="title-about">Sobre mim!</h1>
             <div className="box-one-about">
                 <div className="box-about box-blocky-about">

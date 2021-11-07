@@ -5,6 +5,8 @@ import GitHubAPI from '../image/GitHubAPI.png';
 import useStateuSeEffect from '../image/useState-useEffect.png';
 import ReactStrap from '../image/ReactStrap.png';
 
+import { Link } from 'react-router-dom';
+
 export default function UmPoucoMais() {
     const styleMarg = {
         'margin-bottom': '35px',
@@ -12,6 +14,17 @@ export default function UmPoucoMais() {
 
     return (
         <div className="container-umpoucomais">
+            <Link
+                to="/githubprojects"
+                style={{
+                    display: 'flex',
+                    'align-items': 'center',
+                    'justify-content': 'center',
+                    color: 'gray',
+                }}
+            >
+                Git Hub Projetos
+            </Link>
             <h1 className="title-umpoucomais">Um pouco mais!</h1>
             <div className="box-one-umpoucomais">
                 <div className="box-umpoucomais" style={styleMarg}>
