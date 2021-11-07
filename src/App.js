@@ -3,20 +3,17 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 // Routes
 import Routes from './components/routes/routes';
-import NavBar from './components/NavBar/NavBar';
 import { Link, BrowserRouter } from 'react-router-dom';
 
 // Import Components
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-// ReactStrap
+import StyleNavBar from './components/Style-NavBar/Style-NavBar';
 
 function App() {
     return (
         <div className="App">
-            <div className="routes">
-                <Routes></Routes>
-            </div>
+            <StyleNavBar />
             <p
                 style={{
                     display: 'flex',
@@ -45,6 +42,9 @@ function App() {
             >
                 Trabalhando no NavBar com problema!
             </p>
+            <div className="routes">
+                <Routes></Routes>
+            </div>
             <p
                 style={{
                     display: 'flex',

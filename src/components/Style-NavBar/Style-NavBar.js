@@ -23,7 +23,7 @@ const PortStyle = {
     'margin-right': '100px',
 };
 
-export default function NavBar() {
+export default function StyleNavBar() {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggle = () => setIsOpen(!isOpen);
