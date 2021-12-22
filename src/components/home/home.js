@@ -32,6 +32,10 @@ const pStyle = {
 };
 
 function Home() {
+    const scroll = () => {
+        document.getElementById('foto').scrollIntoView();
+    };
+    window.onload = scroll;
     return (
         <div className="container">
             <h1 className="title">
@@ -39,7 +43,7 @@ function Home() {
             </h1>
             <div className="box-one">
                 <div className="box box-blocky">
-                    <div className="image box-blocky">
+                    <div className="image box-blocky" id="foto">
                         <img src={perfil} alt=""></img>
                     </div>
                     <h3 style={h1Style}>

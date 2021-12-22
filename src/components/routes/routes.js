@@ -7,6 +7,8 @@ import Home from '../home/home';
 import About from '../about/about';
 import GithubProjects from '../githubProjects/githubProjects';
 import UmPoucoMais from '../UmPoucoMais/UmPoucoMais';
+import Videos from '../videos/Videos';
+import Projetos from '../projetos/projetos';
 
 import ScrollToTop from './ScrollToTop';
 
@@ -41,6 +43,10 @@ const linkStyle = {
     'margin-left': '10px',
 };
 
+const tilespace = {
+    'margin-left': '20px',
+};
+
 const Routes = () => {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -56,19 +62,23 @@ const Routes = () => {
                         <NavbarToggler onClick={toggle} />
                         <Collapse isOpen={isOpen} navbar>
                             <Nav className="me-auto" navbar>
-                                <NavItem>
+                                <NavItem style={tilespace}>
                                     {/* <NavLink href="/">Home</NavLink> */}
-                                    <Link to={'/'} style={linkStyle}>
+                                    <Link
+                                        to={'/'}
+                                        href="#foto"
+                                        style={linkStyle}
+                                    >
                                         Home
                                     </Link>
                                 </NavItem>
-                                <NavItem>
+                                <NavItem style={tilespace}>
                                     {/* <NavLink href="/about">About</NavLink> */}
                                     <Link to={'/about'} style={linkStyle}>
-                                        About
+                                        Sobre
                                     </Link>
                                 </NavItem>
-                                <NavItem>
+                                <NavItem style={tilespace}>
                                     {/* <NavLink href="/githubprojects">
                                         GitHub Projects
                                     </NavLink> */}
@@ -76,15 +86,31 @@ const Routes = () => {
                                         to={'/githubprojects'}
                                         style={linkStyle}
                                     >
-                                        GitHub Projects
+                                        GitHub
                                     </Link>
                                 </NavItem>
-                                <NavItem>
+                                <NavItem style={tilespace}>
                                     {/* <NavLink href="/UmPoucoMais">
                                         Um pouco mais
                                     </NavLink> */}
                                     <Link to={'/UmPoucoMais'} style={linkStyle}>
-                                        A little more
+                                        Um pouco mais
+                                    </Link>
+                                </NavItem>
+                                <NavItem style={tilespace}>
+                                    {/* <NavLink href="/UmPoucoMais">
+                                        Um pouco mais
+                                    </NavLink> */}
+                                    <Link to={'/videos'} style={linkStyle}>
+                                        Videos
+                                    </Link>
+                                </NavItem>
+                                <NavItem style={tilespace}>
+                                    {/* <NavLink href="/UmPoucoMais">
+                                        Um pouco mais
+                                    </NavLink> */}
+                                    <Link to={'/projetos'} style={linkStyle}>
+                                        Projetos
                                     </Link>
                                 </NavItem>
                             </Nav>
@@ -99,6 +125,8 @@ const Routes = () => {
                     exact
                 />
                 <Route component={UmPoucoMais} path="/UmPoucoMais" exact />
+                <Route component={Videos} path="/videos" exact />
+                <Route component={Projetos} path="/projetos" exact />
             </ScrollToTop>
         </BrowserRouter>
     );

@@ -18,7 +18,7 @@ function App() {
             <div className="routes">
                 <Routes></Routes>
             </div>
-            <p
+            {/* <p
                 style={{
                     display: 'flex',
                     'align-items': 'center',
@@ -31,7 +31,7 @@ function App() {
                 }}
             >
                 Trabalhando no site para deixá-lo responsivo!
-            </p>
+            </p> */}
             <p
                 style={{
                     display: 'flex',
