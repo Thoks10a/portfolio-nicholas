@@ -1,0 +1,31 @@
+.icon-navbar-hover {
+    margin-left: 0px;
+    display: inline-block;
+
+}
+
+.icon-navbar-hover :hover {
+    background-color: rgb(70, 70, 70);
+    border: 1px solid rgb(70, 70, 70);
+
+    /* height: 40px;
+    width: 40px; */
+    border-radius: 25%;
+    transition-delay: 0.1s;
+}
+
+.a-button {
+    display: inline-block;
+    /* padding: 2px; */
+}
+
+.nav-item {
+    width: auto;
+    height: auto;
+    margin-right: 25px;
+    text-align: center;
+}
+
+.navbar {
+    padding-bottom: 15px !important;
+}

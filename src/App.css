@@ -22,7 +22,8 @@ body {
 }
 
 .navbar a {
-    color: rgb(255, 255, 255) !important;
+    /* color: rgb(255, 255, 255) !important; */
+    color: #E9D471 !important;
 }
 
 .navbar a:hover {
