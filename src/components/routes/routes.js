@@ -73,7 +73,7 @@ const icon = {
     padding: '5px 5px 5px 5px',
     margin: 0,
     marginRight: 50,
-    // borderColor: 'rgba(0, 0, 0, 0)',
+    borderColor: 'rgba(0, 0, 0, 0)',
     opacity: '0.5',
     // 'background-color': 'rgb(83,83,83)',
     // transition: '0s background-color',
