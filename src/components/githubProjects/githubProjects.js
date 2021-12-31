@@ -2,6 +2,12 @@ import React, { useEffect, useState } from 'react';
 import './githubProjects.css';
 import { Link } from 'react-router-dom';
 
+//icons
+import { IoIosArrowBack } from 'react-icons/io';
+import { MdNavigateNext } from 'react-icons/md';
+
+import '../home/home.css';
+
 function GithubProjects() {
     const [repositories, setRepositories] = useState([]);
 
@@ -21,8 +27,9 @@ function GithubProjects() {
                     'justify-content': 'center',
                     color: 'gray',
                 }}
+                className="next-hove"
             >
-                Sobre
+                <IoIosArrowBack size={35} />
             </Link>
             <h1 className="title-git">Projetos GitHub!</h1>
             <h4 className="title-git-sub">API Git Repositories</h4>
@@ -61,8 +68,9 @@ function GithubProjects() {
                     'justify-content': 'center',
                     color: 'gray',
                 }}
+                className="next-hove"
             >
-                Um pouco mais!
+                <MdNavigateNext size={35} />
             </Link>
         </div>
     );

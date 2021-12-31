@@ -7,6 +7,12 @@ import ReactStrap from '../image/ReactStrap.png';
 
 import { Link } from 'react-router-dom';
 
+//icons
+import { IoIosArrowBack } from 'react-icons/io';
+import { MdNavigateNext } from 'react-icons/md';
+
+import '../home/home.css';
+
 export default function UmPoucoMais() {
     const styleMarg = {
         'margin-bottom': '35px',
@@ -22,8 +28,9 @@ export default function UmPoucoMais() {
                     'justify-content': 'center',
                     color: 'gray',
                 }}
+                className="next-hove"
             >
-                Git Hub Projetos
+                <IoIosArrowBack size={35} />
             </Link>
             <h1 className="title-umpoucomais">Um pouco mais!</h1>
             <div className="box-one-umpoucomais">
@@ -44,6 +51,18 @@ export default function UmPoucoMais() {
                     <img src={ReactStrap} alt=""></img>
                 </div>
             </div>
+            <Link
+                to="/videos"
+                style={{
+                    display: 'flex',
+                    'align-items': 'center',
+                    'justify-content': 'center',
+                    color: 'gray',
+                }}
+                className="next-hove"
+            >
+                <MdNavigateNext size={35} />
+            </Link>
         </div>
     );
 }

@@ -58,3 +58,13 @@
     overflow: hidden;
     margin: 10px;
 } */
+
+.next-hove {
+    margin-top: 15px;
+}
+
+.next-hove :hover {
+    background-color: rgb(52, 57, 68);
+    border-radius: 5%;
+    opacity: 0.7;
+}

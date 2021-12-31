@@ -22,6 +22,10 @@ import perfil from '../image/perfil.jpg';
 
 import { useState } from 'react';
 
+//icon
+
+import { MdNavigateNext } from 'react-icons/md';
+
 const h1Style = {
     'margin-top': '2rem',
 };
@@ -72,8 +76,9 @@ function Home() {
                     'justify-content': 'center',
                     color: 'gray',
                 }}
+                className="next-hove"
             >
-                Sobre
+                <MdNavigateNext size={35} />
             </Link>
         </div>
     );

@@ -3,6 +3,12 @@ import './about.css';
 
 import { Link } from 'react-router-dom';
 
+//icons
+import { IoIosArrowBack } from 'react-icons/io';
+import { MdNavigateNext } from 'react-icons/md';
+
+import '../home/home.css';
+
 const h1Style = {
     'margin-bottom': '2rem',
 };
@@ -37,8 +43,9 @@ function About() {
                     'justify-content': 'center',
                     color: 'gray',
                 }}
+                className="next-hove"
             >
-                Home
+                <IoIosArrowBack size={35} />
             </Link>
             <h1 className="title-about">Sobre mim!</h1>
             <div className="box-one-about">
@@ -147,8 +154,9 @@ function About() {
                     'justify-content': 'center',
                     color: 'gray',
                 }}
+                className="next-hove"
             >
-                Git Projetos
+                <MdNavigateNext size={35} />
             </Link>
         </div>
     );
