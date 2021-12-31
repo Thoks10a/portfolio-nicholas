@@ -2,16 +2,12 @@
     color: white;
 }
 
-/* .container {
-    border: 10px solid white;
-
-} */
-
 .container h3 {
     font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .title {
@@ -55,3 +51,10 @@
     display: flex;
     justify-content: center;
 }
+
+/* .background-image {
+    background: url(../image/home-background.jpg) no-repeat right top fixed;
+    border-radius: 1%;
+    overflow: hidden;
+    margin: 10px;
+} */

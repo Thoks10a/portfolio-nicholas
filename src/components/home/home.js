@@ -38,9 +38,11 @@ function Home() {
     window.onload = scroll;
     return (
         <div className="container">
-            <h1 className="title">
-                Olá bem vindo ao meu portfolio! Espero que goste!
-            </h1>
+            <div className="background-image">
+                <h1 className="title">
+                    Olá bem vindo ao meu portfolio! Espero que goste!
+                </h1>
+            </div>
             <div className="box-one">
                 <div className="box box-blocky">
                     <div className="image box-blocky" id="foto">

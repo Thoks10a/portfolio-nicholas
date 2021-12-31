@@ -21,11 +21,16 @@ body {
     background-color: rgb(52, 52, 53) !important;
 }
 
+
 .navbar a {
     /* color: rgb(255, 255, 255) !important; */
-    color: #E9D471 !important;
+    color: rgb(255, 255, 255) !important;
+    opacity: 0.5;
 }
 
+
+
 .navbar a:hover {
-    color: rgb(185, 185, 185) !important;
+    color: rgb(255, 255, 255) !important;
+    opacity: 1;
 }

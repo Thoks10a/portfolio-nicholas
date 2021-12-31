@@ -12,7 +12,9 @@
     width: 40px; */
     border-radius: 25%;
     transition-delay: 0.1s;
+    opacity: 1;
 }
+
 
 .a-button {
     display: inline-block;
