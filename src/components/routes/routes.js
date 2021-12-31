@@ -209,7 +209,7 @@ const Routes = () => {
                             type="button"
                             className="btn-hover"
                             style={icon}
-                            href="https://github.com/Thoks10a?tab=repositories"
+                            href="https://github.com/Thoks10a"
                             target="_blank"
                         >
                             <AiFillGithub size={25} />
