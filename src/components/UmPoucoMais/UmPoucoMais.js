@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 
 //icons
 import { IoIosArrowBack } from 'react-icons/io';
-import { MdNavigateNext } from 'react-icons/md';
+//import { MdNavigateNext } from 'react-icons/md';
 
 import '../home/home.css';
 
