@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 //icons
 import { IoIosArrowBack } from 'react-icons/io';
-import { MdNavigateNext } from 'react-icons/md';
+//import { MdNavigateNext } from 'react-icons/md';
 
 import '../home/home.css';
 
@@ -35,18 +35,6 @@ export default function Projetos() {
             >
                 Em breve projetos serão adicionados!
             </div>
-            <Link
-                to="/videos"
-                style={{
-                    display: 'flex',
-                    'align-items': 'center',
-                    'justify-content': 'center',
-                    color: 'gray',
-                }}
-                className="next-hove"
-            >
-                <MdNavigateNext size={35} />
-            </Link>
         </div>
     );
 }
