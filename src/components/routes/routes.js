@@ -164,13 +164,13 @@ const Routes = () => {
                                         Mais
                                     </Link>
                                 </NavItem>
-                                <NavItem
+                                {/* <NavItem
                                     style={tilespace}
                                     className="icon-navbar-hover"
                                 >
                                     {/* <NavLink href="/UmPoucoMais">
                                         Um pouco mais
-                                    </NavLink> */}
+                                    </NavLink>
                                     <Link
                                         to={'/videos'}
                                         style={linkStyle}
@@ -189,7 +189,7 @@ const Routes = () => {
                                 >
                                     {/* <NavLink href="/UmPoucoMais">
                                         Um pouco mais
-                                    </NavLink> */}
+                                    </NavLink>
                                     <Link
                                         to={'/projetos'}
                                         style={linkStyle}
@@ -201,7 +201,7 @@ const Routes = () => {
                                         />
                                         Projetos
                                     </Link>
-                                </NavItem>
+                                </NavItem>*/}
                             </Nav>
                         </Collapse>
 

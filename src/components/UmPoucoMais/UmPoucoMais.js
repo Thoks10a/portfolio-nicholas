@@ -51,7 +51,7 @@ export default function UmPoucoMais() {
                     <img src={ReactStrap} alt=""></img>
                 </div>
             </div>
-            <Link
+            {/*<Link
                 to="/videos"
                 style={{
                     display: 'flex',
@@ -62,7 +62,7 @@ export default function UmPoucoMais() {
                 className="next-hove"
             >
                 <MdNavigateNext size={35} />
-            </Link>
+            </Link>*/}
         </div>
     );
 }
